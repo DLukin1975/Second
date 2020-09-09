@@ -19,9 +19,9 @@ public class Phone {
     String model;
     int weght;
 
-  //  public static void receiveCall (String name) {
- //       System.out.println("Звонит " + name);
- //   }
+    public static void receiveCall (String name) {
+        System.out.println("Звонит " + name);
+   }
 
  //   public static void getNumber (String arg) {
  //       System.out.println("Черти что");
