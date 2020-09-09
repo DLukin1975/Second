@@ -1,7 +1,7 @@
 package Lesson3_PHONE;
 
 public class Phone {
-    String namber;
+    String number;
     String model;
     int weght;
 }
