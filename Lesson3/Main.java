@@ -1,9 +1,9 @@
 package Lesson3;
 
-import java.util.*;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-      //  Date date1 = new Date[];
+        Animal animal = new Animal();
     }
 }
