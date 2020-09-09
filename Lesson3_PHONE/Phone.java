@@ -23,6 +23,10 @@ public class Phone {
         System.out.println("Звонит " + name);
    }
 
+    public void receiveCall (String name, String phoneNum) {
+        System.out.println("Звонит " + name + phoneNum);
+    }
+
     public void getNumber () {
        System.out.println("Вам звонит номер " + number);
     }
