@@ -30,4 +30,11 @@ public class Phone {
     public void getNumber () {
        System.out.println("Вам звонит номер " + number);
     }
+
+    public void sendMessage (String[] nums) {
+        int i;
+        for (i=0;i<nums.length;i++) {
+            System.out.println(nums[i]);
+        }
+    }
 }
