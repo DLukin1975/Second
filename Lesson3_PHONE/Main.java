@@ -25,7 +25,7 @@ public class Main {
         phone3.receiveCall("Ангелина","345");
 
 
-        String[] nums = new String[10];
+        String[] nums = new String[11];
         nums[0] = "345";
         nums[1] = "567";
         nums[2] = "983";
