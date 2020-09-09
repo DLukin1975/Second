@@ -7,6 +7,7 @@ public class Main {
         Phone phone1 = new Phone("N234","Nokia A310",200);
         Phone phone2 = new Phone("N345","Ericson XXL",550);
         Phone phone3 = new Phone("N678","Gnusmas 10A",150);
+
         System.out.println("Созданные экземпляры");
         System.out.println(phone1.model + " " +phone1.number + " " + phone1.weght);
         System.out.println(phone2.model + " " +phone2.number + " " + phone2.weght);
@@ -25,7 +26,7 @@ public class Main {
         phone3.receiveCall("Ангелина","345");
 
 
-        String[] nums = new String[11];
+        String[] nums = new String[5];
         nums[0] = "345";
         nums[1] = "567";
         nums[2] = "983";
