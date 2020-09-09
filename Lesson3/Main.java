@@ -1,8 +1,10 @@
+package Lesson3;
+
 import java.util.*;
 
 public class Main {
-
     public static void main(String[] args) {
-        Date date = new Date[];
+
+      //  Date date1 = new Date[];
     }
 }
