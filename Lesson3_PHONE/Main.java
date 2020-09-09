@@ -17,5 +17,11 @@ public class Main {
         phone1.getNumber();
         phone2.getNumber();
         phone3.getNumber();
+
+        System.out.println();
+        System.out.println("Вызов метода receiveCall");
+        phone1.receiveCall("Павел");
+        phone2.receiveCall("Юрий");
+        phone3.receiveCall("Ангелина");
     }
 }
