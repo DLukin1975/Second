@@ -19,9 +19,11 @@ public class Main {
         phone3.getNumber();
 
         System.out.println();
-        System.out.println("Вызов метода receiveCall");
-        phone1.receiveCall("Павел");
-        phone2.receiveCall("Юрий");
-        phone3.receiveCall("Ангелина");
+        System.out.println("Вызов перегруженного метода receiveCall");
+        phone1.receiveCall("Павел","123");
+        phone2.receiveCall("Юрий","234");
+        phone3.receiveCall("Ангелина","345");
+
+
     }
 }

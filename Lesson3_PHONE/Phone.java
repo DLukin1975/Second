@@ -24,7 +24,7 @@ public class Phone {
    }
 
     public void receiveCall (String name, String phoneNum) {
-        System.out.println("Звонит " + name + phoneNum);
+        System.out.println("Звонит " + " Номер " +name + phoneNum);
     }
 
     public void getNumber () {
