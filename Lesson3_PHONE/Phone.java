@@ -31,10 +31,10 @@ public class Phone {
        System.out.println("Вам звонит номер " + number);
     }
 
-    public void sendMessage (String[] nums) {
+    public void sendMessage(String[] nums) {
         int i;
         for (i=0;i<nums.length;i++) {
-            System.out.println(nums[i]);
+            System.out.println("Сообщение будет отправлено номеру " + nums[i]);
         }
     }
 }

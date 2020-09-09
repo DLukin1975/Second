@@ -25,5 +25,14 @@ public class Main {
         phone3.receiveCall("Ангелина","345");
 
 
+        String[] nums = new String[10];
+        nums[0] = "345";
+        nums[1] = "567";
+        nums[2] = "983";
+        nums[3] = "978";
+        nums[4] = "372";
+        System.out.println();
+        System.out.println("Вызов метода sendMessage");
+        phone1.sendMessage(nums);
     }
 }
