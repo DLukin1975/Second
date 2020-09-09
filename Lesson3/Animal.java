@@ -1,10 +1,9 @@
 package Lesson3;
 
 public class Animal {
-    public Animal(String name) {
-        Name = name;
+    public Animal(String Name) {
+        this.name = Name;
     }
-
-    String Name;
+    String name ;
     int Age;
 }
