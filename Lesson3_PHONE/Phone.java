@@ -8,8 +8,7 @@ public class Phone {
     }
 
     Phone(String number, String model, int weght) {
-        this.number = number;
-        this.model = model;
+        this(number,model);
         this.weght = weght;
     }
 
