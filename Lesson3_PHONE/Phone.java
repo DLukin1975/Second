@@ -1,18 +1,18 @@
 package Lesson3_PHONE;
 
 public class Phone {
-    public Phone(String number, String model, int weght) {
+    Phone(String number, String model, int weght) {
         this.number = number;
         this.model = model;
-        this.weght = weght;
+        this.weght = 0;
     }
 
-    public Phone(String number, String model) {
+    Phone(String number, String model) {
         this.number = number;
         this.model = model;
     }
 
-    public Phone() {
+    Phone() {
     }
 
     String number;
