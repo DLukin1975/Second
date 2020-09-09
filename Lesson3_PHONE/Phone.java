@@ -24,6 +24,6 @@ public class Phone {
    }
 
     public void getNumber () {
-       System.out.println("Черти что");
+       System.out.println("Вам звонит номер " + number);
     }
 }
