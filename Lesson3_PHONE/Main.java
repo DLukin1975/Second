@@ -11,6 +11,6 @@ public class Main {
         System.out.println(phone2.model + " " +phone2.number + " " + phone2.weght);
         System.out.println(phone3.model + " " +phone3.number + " " + phone3.weght);
 
-        phone1.getNumber();
+       // phone1.getNumber();
     }
 }
