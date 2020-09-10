@@ -18,6 +18,6 @@ public class Animal {
     }
 
     public void sleep(){
-        System.out.println("Спит в location " + location);
+        System.out.println(name + " спит");
     }
 }
