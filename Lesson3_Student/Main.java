@@ -4,7 +4,9 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        Student student = new Student("Dmitriy", "L", "604", 5d);
+        Student student = new Student("Dmitriy", "Student", "604", 5d);
         System.out.println(student.getScholarship());
+        Student aspirant = new Aspirant("Dmitriy", "Aspirant", "604", 5d);
+        System.out.println(aspirant.getScholarship());
     }
 }
