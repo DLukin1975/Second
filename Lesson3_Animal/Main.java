@@ -7,5 +7,7 @@ public class Main {
         System.out.println(animal.name);
         System.out.println(animal2.name);
         animal.sleep();
+        animal.eat();
+        animal.makeNoise();
     }
 }
