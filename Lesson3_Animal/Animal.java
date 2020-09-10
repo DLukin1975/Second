@@ -1,8 +1,10 @@
 package Lesson3_Animal;
 
 public class Animal {
-    public Animal(String Name) {
-        this.name = Name;
+    public Animal(String name, String food, String location) {
+        this.name = name;
+        this.food = food;
+        this.location = location;
     }
     String name ;
     String food;
@@ -10,14 +12,16 @@ public class Animal {
     int Age;
 
     public void makeNoise(){
-        System.out.println("Шумит в location " + location);
+        System.out.println(name + " шумит в location " + location);
     }
 
     public void eat(){
-        System.out.println("Ест еду - " + food);
+        System.out.println(name + " ест еду - " + food);
     }
 
     public void sleep(){
         System.out.println(name + " спит");
     }
 }
+
+
