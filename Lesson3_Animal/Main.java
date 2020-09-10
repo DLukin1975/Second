@@ -1,7 +1,7 @@
 package Lesson3_Animal;
 
 public class Main {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Animal animal = new Animal("Bear","Малина","Сибирь");
         Animal animal2 = new Animal("Egle","кролик","степь");
         System.out.println(animal.name);
@@ -9,5 +9,6 @@ public class Main {
         animal.sleep();
         animal.eat();
         animal.makeNoise();
+        Animal[] aniQueue = new Animal[4];
     }
 }
