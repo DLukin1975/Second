@@ -9,4 +9,14 @@ public class Aspirant extends Student{
         super(firstName, lastName, group, averageMark);
         this.aspirantWork = aspirantWork;
     }
+    public double getScholarship() {
+        double shcolarship;
+        if (averageMark == 5d) {
+            shcolarship = 200d;
+        }
+        else {
+            shcolarship = 180d;
+        }
+        return shcolarship;
+    }
 }
