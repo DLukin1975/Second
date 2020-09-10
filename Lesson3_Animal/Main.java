@@ -9,6 +9,7 @@ public class Main {
         animal.sleep();
         animal.eat();
         animal.makeNoise();
-        Animal[] aniQueue = new Animal[4];
+        Animal[] animalsQueue = new Animal[4];
+
     }
 }
