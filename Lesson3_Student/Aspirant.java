@@ -1,0 +1,12 @@
+package Lesson3_Student;
+
+public class Aspirant extends Student{
+    String aspirantWork;
+    public Aspirant(String firstName, String lastName, String group, double averageMark) {
+        super(firstName, lastName, group, averageMark);
+    }
+    public Aspirant(String firstName, String lastName, String group, double averageMark, String aspirantWork) {
+        super(firstName, lastName, group, averageMark);
+        this.aspirantWork = aspirantWork;
+    }
+}
