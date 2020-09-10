@@ -11,7 +11,7 @@ public class Main {
         int i;
         for (i=0;i< student.length;i++) {
             System.out.println("У " + student[i].firstName +"." + student[i].lastName +
-                    " средняя оценка" + student[i].averageMark +
+                    " средняя оценка " + student[i].averageMark +
                     " стипендия " + student[i].getScholarship());
         }
 
