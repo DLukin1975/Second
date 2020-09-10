@@ -9,7 +9,7 @@ public class Main {
         animal.sleep();
         animal.eat();
         animal.makeNoise();
-        Animal[] animalsQueue = new Animal[4];
+        Animal[] animalsQueue = {new Animal("Bear","Малина","Сибирь"),new Dog("Шарик", "мясо", "конура")};
      //   animalsQueue[0] = new Animal("Bear","Малина","Сибирь");
      //   animalsQueue[1] = new Dog("Шарик", "мясо", "конура");
       //  animalsQueue[2] = new Cat("Барсик", "рыбка", "диван");
