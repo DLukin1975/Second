@@ -1,16 +1,16 @@
 package Lesson4Task1;
 
 public class Rectangle implements  Shape {
-    private int x;
+    private double x;
 
 //    private int x;
 
-    public Rectangle (int x) {
-  //     super(x);
+    public Rectangle (double x) {
+       this.x = x;
     }
     @Override
     public double square() {
         //int x = this.x;
-        return x;
+        return this.x;
     }
 }
