@@ -9,4 +9,12 @@ public abstract class Car {
         this.classAuto = classAuto;
         this.engine = engine;
     }
+    abstract void start();
+    abstract void stop();
+    void turnleft () {
+        System.out.println("Поворот налево");
+    }
+    void turnright () {
+        System.out.println("Поворот направо");
+    }
 }
