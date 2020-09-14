@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class Lesson2task7 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int callDuration = 10;
         Scanner in = new Scanner(System.in);
-        System.out.println ("Введите код города");
+        System.out.println("Введите код города");
         int cityCode = in.nextInt();
 
         switch (cityCode) {
