@@ -1,6 +1,6 @@
 package Lesson4Task2;
 
-public class Car {
+public abstract class Car {
     private String markAuto;
     private String classAuto;
     private Engine engine;
