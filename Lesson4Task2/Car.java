@@ -11,6 +11,7 @@ public abstract class Car {
     }
     abstract void start();
     abstract void stop();
+    abstract void printinfo();
     void turnleft () {
         System.out.println("Поворот налево");
     }
