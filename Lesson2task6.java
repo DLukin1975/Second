@@ -5,7 +5,7 @@ public class Lesson2task6 {
         Scanner in = new Scanner(System.in);
         System.out.println ("Введите целое число");
         int number = in.nextInt();
-        String even = "";
+        String even;
         String positiv = "";
         if (number > 0) {
             positiv = "положительное";
@@ -13,11 +13,20 @@ public class Lesson2task6 {
         else if (number<0) {
             positiv = "отрицательное";
         }
-        switch (number % 2) {
-            case 0 -> even = "четное";
-            case 1 -> even = "нечетное";
-            case -1 -> even = "нечетное";
+
+ //       switch (number % 2) {
+ //          case 0 -> even = "четное";
+//            case 1 -> even = "нечетное";
+//           case -1 -> even = "нечетное";
+//        }
+
+        if (number % 2 == 0) {
+            even = "четное";
         }
+        else {
+            even = "нечетное";
+        }
+
         if (number == 0) {
             System.out.print("нулевое число");
         }
