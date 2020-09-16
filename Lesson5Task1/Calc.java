@@ -2,7 +2,7 @@ package Lesson5Task1;
 
 public class Calc {
     public double addition(double x, double y, Logger log) {
-        log.log("ddd");
+        log.log(String.valueOf(x+y));
         return x + y;
     }
 
