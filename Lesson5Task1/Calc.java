@@ -1,7 +1,7 @@
 package Lesson5Task1;
 
 public class Calc {
-    public double addition(double x, double y) {
+    public double addition(double x, double y, Logger log) {
         return x + y;
     }
 
