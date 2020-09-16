@@ -5,5 +5,4 @@ public class ConsoleLoggerFactory extends LoggerFactory {
     public Logger createLog() {
         return new ConsoleLogger();
     }
-
 }
