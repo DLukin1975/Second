@@ -6,15 +6,18 @@ public class Calc {
         return x + y;
     }
 
-    public double substruction(double x, double y) {
+    public double substruction(double x, double y, Logger log) {
+        log.log(String.valueOf(x-y));
         return x - y;
     }
 
-    public double multiplication(double x, double y) {
+    public double multiplication(double x, double y, Logger log) {
+        log.log(String.valueOf(x*y));
         return x * y;
     }
 
-    public double division(double x, double y) {
+    public double division(double x, double y, Logger log) {
+        log.log(String.valueOf(x/y));
         return x / y;
     }
 }

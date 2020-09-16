@@ -5,6 +5,6 @@ public class Main {
         double x = 40d;
         double y = 5;
         Calc calc = new Calc();
-        System.out.println(calc.addition(x, y));
+       // System.out.println(calc.addition(x, y));
     }
 }
