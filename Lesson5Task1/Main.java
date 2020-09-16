@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         double x = 40d;
         double y = 5;
+        Logger log = new DbLogger();
         Calc calc = new Calc();
-       // System.out.println(calc.addition(x, y));
+        double z = calc.addition(x, y, log);
     }
 }
