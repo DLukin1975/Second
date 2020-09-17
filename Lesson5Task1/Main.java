@@ -8,7 +8,8 @@ public class Main {
         Scanner in = new Scanner(System.in);
         LogType logName = null;
 
-        try { logName = LogType.valueOf(in.nextLine());
+        try {
+            logName = LogType.valueOf(in.nextLine());
         } catch (Exception e) {
             System.out.println("Нет такого типа логирования");
             System.exit(0);
@@ -17,12 +18,15 @@ public class Main {
         Logger log = null;
 
         switch (logName) {
-            case Db: log = new DbLogger();
-            break;
-            case File: log = new FileLogger();
-            break;
-            case Console: log = new ConsoleLogger();
-            break;
+            case Db:
+                log = new DbLogger();
+                break;
+            case File:
+                log = new FileLogger();
+                break;
+            case Console:
+                log = new ConsoleLogger();
+                break;
             default:
         }
 
