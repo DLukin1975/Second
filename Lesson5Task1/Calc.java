@@ -2,7 +2,7 @@ package Lesson5Task1;
 
 public class Calc {
     public double addition(double x, double y, Logger log) {
-        log.log("Результат сложения - " + x + y);
+        log.log("Результат сложения - " + (x + y));
         return x + y;
     }
 
