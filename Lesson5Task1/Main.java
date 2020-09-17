@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Как будем логировать (Db/File/Console)");
         Scanner in = new Scanner(System.in);
-        LogType logName;
-        logName = LogType.valueOf(in.nextLine());
+        LogType logName = null;
+        //logName = LogType.valueOf(in.nextLine());
 
         try { logName = LogType.valueOf(in.nextLine());
         } catch (Exception e) {
