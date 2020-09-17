@@ -32,6 +32,6 @@ public class Main {
         double y = in.nextInt();
 
         Calc calc = new Calc();
-        double z = calc.addition(x, y, log);
+        double z = calc.multiplication(x, y, log);
     }
 }
