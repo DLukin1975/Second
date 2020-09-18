@@ -3,7 +3,7 @@ package Lesson5Task1;
 import java.util.Scanner;
 
 public class Main {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Как будем логировать (Db/File/Console)?");
         Scanner in = new Scanner(System.in);
         LogType logName = null;
