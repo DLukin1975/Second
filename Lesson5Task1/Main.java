@@ -15,21 +15,21 @@ public class Main {
             System.exit(0);
         }
 
-        LoggerFactory log = null;
+        LoggerFactory loggerFactory = null;
 
         switch (logName) {
             case Db:
-                log = new DbLoggerFactory();
+                loggerFactory = new DbLoggerFactory();
                 break;
             case File:
-                log = new FileLoggerFactory();
+                loggerFactory = new FileLoggerFactory();
                 break;
             case Console:
-                log = new ConsoleLoggerFactory();
+                loggerFactory = new ConsoleLoggerFactory();
                 break;
             default:
         }
-
+        Logger log = loggerFactory.createLog();
         System.out.println("Введите первое значение");
         double x = in.nextInt();
         System.out.println("Введите второе значение");
