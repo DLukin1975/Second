@@ -15,17 +15,17 @@ public class Main {
             System.exit(0);
         }
 
-        Logger log = null;
+        LoggerFactory log = null;
 
         switch (logName) {
             case Db:
-                log = new DbLogger();
+                log = new DbLoggerFactory();
                 break;
             case File:
-                log = new FileLogger();
+                log = new FileLoggerFactory();
                 break;
             case Console:
-                log = new ConsoleLogger();
+                log = new ConsoleLoggerFactory();
                 break;
             default:
         }
