@@ -2,15 +2,17 @@ package Lesson5Task2;
 
 public class Main {
     public static void main(String[] args) {
+        int i;
         CharactiristicCreate[] specification;
         SpecificationGenerator specificationGenerator = new SpecificationGenerator();
         specificationGenerator.setStrategyCreateSpecification(new OneMonitorStrategy());
         specification = specificationGenerator.getSpecification();
-  //      System.out.println("Результат: " + specification[0]);
-   //     System.out.println("Результат: " + specification[1]);
 
         Computer computer = new Computer();
         computer.createComputer(specification);
-       System.out.println("Результат: " + computer.charactiristic[0].toString());
+        System.out.println("Мы создали компьютер со следующими характеристиками:");
+        for (i = 0; i < specification.length; i++) {
+            System.out.println(computer.charactiristic[i].toString());
+        }
     }
 }
