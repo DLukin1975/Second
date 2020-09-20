@@ -9,5 +9,6 @@ public class Main {
         TwoMonitorStrategy strategy = new TwoMonitorStrategy();
         strategy.twoMonitorStrategy(specification);
         System.out.println("Результат: " + specification[0]);
+        System.out.println("Результат: " + specification[1]);
     }
 }
