@@ -2,8 +2,8 @@ package Lesson5Task2;
 
 public class TwoMonitorStrategy implements StrategyCreateSpecification {
     public CharactiristicCreate[] createSpecification() {
-   //     specification = new CharactiristicCreate[6];
-    //    ProcessorCreate[] specification;
+        //     specification = new CharactiristicCreate[6];
+        //    ProcessorCreate[] specification;
         CharactiristicCreate[] specification = new CharactiristicCreate[6];
         specification[0] = new ProcessorCreate();
         specification[1] = new RamCreate();
@@ -11,7 +11,7 @@ public class TwoMonitorStrategy implements StrategyCreateSpecification {
         specification[3] = new DiscCreate();
         specification[4] = new MonitorCreate();
         specification[5] = new MonitorCreate();
- return specification;
+        return specification;
     }
 
 }

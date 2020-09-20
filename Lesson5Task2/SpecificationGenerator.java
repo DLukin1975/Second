@@ -10,7 +10,7 @@ public class SpecificationGenerator {
         this.strategyCreateSpecification = strategyCreateSpecification;
     }
 
-    public void getSpecification(CharactiristicCreate[] array) {
-        strategyCreateSpecification.createSpecification(array);
+    public CharactiristicCreate[] getSpecification() {
+        return strategyCreateSpecification.createSpecification();
     }
 }
