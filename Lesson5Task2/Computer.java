@@ -10,7 +10,7 @@ public class Computer {
         //CharactiristicCreate[] specification;
         int i;
         charactiristic = new Charactiristic[specification.length-1];
-        for (i = 0; i < specification.length - 1; i++) {
+        for (i = 0; i < charactiristic.length - 1; i++) {
             System.out.print(i);
 
  //           if (specification[i].createCharacteristic() instanceof Charactiristic) {
