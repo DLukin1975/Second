@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        CharactiristicCreate[] specification = new CharactiristicCreate[]{ new DiscCreate()};
+        CharactiristicCreate[] specification = new CharactiristicCreate[10];
         TwoMonitorStrategy strategy = new TwoMonitorStrategy();
         strategy.twoMonitorStrategy(specification);
-        System.out.println(Arrays.toString(specification));
+ //       System.out.println(specification[0]);
     }
 }
