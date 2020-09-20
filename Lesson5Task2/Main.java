@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Результат: " + specification[1]);
 
         Computer computer = new Computer();
- //       computer.createComputer(specification);
-        System.out.println("Результат: " + computer.charactiristic[0]);
+        computer.createComputer(specification);
+//        System.out.println("Результат: " + computer.charactiristic[0]);
     }
 }
