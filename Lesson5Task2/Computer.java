@@ -3,13 +3,13 @@ package Lesson5Task2;
 public class Computer {
  //   private CharactiristicCreate[] specification;
  //   private int i;
-//    public Charactiristic[] charactiristic;
+    public Charactiristic[] charactiristic;
 
-    public static void createComputer(CharactiristicCreate[] specification) {
+    public void createComputer(CharactiristicCreate[] specification) {
         //   Charactiristic[] charactiristic {};
         //CharactiristicCreate[] specification;
         int i;
-        Charactiristic[] charactiristic = new Charactiristic[specification.length];
+        charactiristic = new Charactiristic[specification.length-1];
         for (i = 0; i < specification.length - 1; i++) {
             System.out.print(i);
 
