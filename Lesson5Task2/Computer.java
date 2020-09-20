@@ -11,7 +11,7 @@ public class Computer {
         for (i = 0; i < specification.length - 1; i++) {
             System.out.print(i);
 
-            if (specification[i].createCharacteristic() != null) {
+            if (specification[i].createCharacteristic() instanceof CharactiristicCreate) {
                 System.out.println(specification[i].createCharacteristic());
                 charactiristic[i] = specification[i].createCharacteristic();
             }
