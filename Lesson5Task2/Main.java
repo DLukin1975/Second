@@ -6,11 +6,11 @@ public class Main {
         SpecificationGenerator specificationGenerator = new SpecificationGenerator();
         specificationGenerator.setStrategyCreateSpecification(new OneMonitorStrategy());
         specification = specificationGenerator.getSpecification();
-        System.out.println("Результат: " + specification[0]);
-        System.out.println("Результат: " + specification[1]);
+  //      System.out.println("Результат: " + specification[0]);
+   //     System.out.println("Результат: " + specification[1]);
 
         Computer computer = new Computer();
         computer.createComputer(specification);
-//        System.out.println("Результат: " + computer.charactiristic[0]);
+       System.out.println("Результат: " + computer.charactiristic[0].toString());
     }
 }
