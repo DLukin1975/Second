@@ -6,11 +6,11 @@ public class Context {
     public Context() {
     }
 
-    public void setStrategyCreateSpecification(StrategyCreateSpecification strategyCreateSpecification) {
+    public void setStrategyCreateSpecification( StrategyCreateSpecification strategyCreateSpecification) {
         this.strategyCreateSpecification = strategyCreateSpecification;
     }
 
-    public void getSpecification(StrategyCreateSpecification[] array) {
-        strategyCreateSpecification.createSpecification((CharactiristicCreate[]) array);
+    public void getSpecification(CharactiristicCreate[] array) {
+  //      strategyCreateSpecification.createSpecification((CharactiristicCreate[]) array);
     }
 }
