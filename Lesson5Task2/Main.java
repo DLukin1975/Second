@@ -5,7 +5,7 @@ public class Main {
         int i;
         CharactiristicCreate[] specification;
         SpecificationGenerator specificationGenerator = new SpecificationGenerator();
-        specificationGenerator.setStrategyCreateSpecification(new OneMonitorStrategy());
+        specificationGenerator.setStrategyCreateSpecification(new TwoMonitorStrategy());
         specification = specificationGenerator.getSpecification();
 
         Computer computer = new Computer();
