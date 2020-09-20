@@ -11,6 +11,6 @@ public class SpecificationGenerator {
     }
 
     public void getSpecification(CharactiristicCreate[] array) {
-  //      strategyCreateSpecification.createSpecification((CharactiristicCreate[]) array);
+        strategyCreateSpecification.createSpecification(array);
     }
 }
