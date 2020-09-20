@@ -10,8 +10,11 @@ public class Computer {
         charactiristic = new Charactiristic[specification.length];
         for (i = 0; i < specification.length - 1; i++) {
             System.out.print(i);
-            System.out.println(specification[i].createCharacteristic());
-            charactiristic[i] = specification[i].createCharacteristic();
+
+            if (specification[i].createCharacteristic() != null) {
+                System.out.println(specification[i].createCharacteristic());
+                charactiristic[i] = specification[i].createCharacteristic();
+            }
         }
     }
 }
