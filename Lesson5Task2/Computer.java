@@ -7,7 +7,7 @@ public class Computer {
     public void createComputer(CharactiristicCreate[] specification) {
      //   Charactiristic[] charactiristic {};
         charactiristic = new Charactiristic[specification.length];
-        for (i=0; i<1;i++) {
+        for (i=0; i<specification.length;i++) {
 
             System.out.println(specification[i].createCharacteristic());
             charactiristic[i] = specification[i].createCharacteristic();
