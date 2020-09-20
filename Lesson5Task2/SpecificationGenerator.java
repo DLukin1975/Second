@@ -1,9 +1,9 @@
 package Lesson5Task2;
 
-public class Context {
+public class SpecificationGenerator {
     private StrategyCreateSpecification strategyCreateSpecification;
 
-    public Context() {
+    public SpecificationGenerator() {
     }
 
     public void setStrategyCreateSpecification( StrategyCreateSpecification strategyCreateSpecification) {
