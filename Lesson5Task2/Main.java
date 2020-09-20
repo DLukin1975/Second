@@ -8,6 +8,6 @@ public class Main {
         CharactiristicCreate[] specification = new CharactiristicCreate[10];
         TwoMonitorStrategy strategy = new TwoMonitorStrategy();
         strategy.twoMonitorStrategy(specification);
-        System.out.println("результат" + specification[0]);
+        System.out.println("Результат: " + specification[0]);
     }
 }
