@@ -1,7 +1,6 @@
 package Lesson3_Animal;
 
 public class Main {
-  //  protected int i;
 
     public static void main(String[] args) {
 
