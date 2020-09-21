@@ -10,6 +10,9 @@ public class Main {
         phone[2] = new Phone("N678", "Gnusmas 10A", 150);
 
         System.out.println("Созданные экземпляры");
+        for (Phone value : phone) {
+            System.out.println(value.model + " " + value.number + " " + value.weght);
+        }
         System.out.println(phone[0].model + " " + phone[0].number + " " + phone[0].weght);
         System.out.println(phone[1].model + " " + phone[1].number + " " + phone[1].weght);
         System.out.println(phone[2].model + " " + phone[2].number + " " + phone[2].weght);
