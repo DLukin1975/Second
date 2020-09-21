@@ -3,27 +3,28 @@ package Lesson3_PHONE;
 import java.util.Date;
 
 public class Main {
+    private static Phone[] phone;
     public static void main(String[] args) {
-        Phone phone1 = new Phone("N234", "Nokia A310", 200);
-        Phone phone2 = new Phone("N345", "Ericson XXL", 550);
-        Phone phone3 = new Phone("N678", "Gnusmas 10A", 150);
+        phone[0] = new Phone("N234", "Nokia A310", 200);
+        phone[1] = new Phone("N345", "Ericson XXL", 550);
+        phone[2] = new Phone("N678", "Gnusmas 10A", 150);
 
         System.out.println("Созданные экземпляры");
-        System.out.println(phone1.model + " " + phone1.number + " " + phone1.weght);
-        System.out.println(phone2.model + " " + phone2.number + " " + phone2.weght);
-        System.out.println(phone3.model + " " + phone3.number + " " + phone3.weght);
+        System.out.println(phone[0].model + " " + phone[0].number + " " + phone[0].weght);
+        System.out.println(phone[1].model + " " + phone[1].number + " " + phone[1].weght);
+        System.out.println(phone[2].model + " " + phone[2].number + " " + phone[2].weght);
 
         System.out.println();
         System.out.println("Вызов метода getNumber");
-        phone1.getNumber();
-        phone2.getNumber();
-        phone3.getNumber();
+        phone[0].getNumber();
+        phone[1].getNumber();
+        phone[2].getNumber();
 
         System.out.println();
         System.out.println("Вызов перегруженного метода receiveCall");
-        phone1.receiveCall("Павел", "123");
-        phone2.receiveCall("Юрий", "234");
-        phone3.receiveCall("Ангелина", "345");
+        phone[0].receiveCall("Павел", "123");
+        phone[1].receiveCall("Юрий", "234");
+        phone[2].receiveCall("Ангелина", "345");
 
 
         String[] nums = new String[5];
@@ -34,6 +35,6 @@ public class Main {
         nums[4] = "372";
         System.out.println();
         System.out.println("Вызов метода sendMessage");
-        phone1.sendMessage(nums);
+        phone[2].sendMessage(nums);
     }
 }
