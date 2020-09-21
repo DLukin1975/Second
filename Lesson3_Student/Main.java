@@ -8,11 +8,10 @@ public class Main {
                 new Student("Nicolay", "Student", "604", 5d),
                 new Aspirant("Dmitriy", "Aspirant", "604", 4.8d),
                 new Aspirant("Sasha", "Aspirant", "604", 5d)};
-        int i;
-        for (i = 0; i < student.length; i++) {
-            System.out.println("У " + student[i].firstName + "." + student[i].lastName +
-                    " средняя оценка " + student[i].averageMark +
-                    " стипендия " + student[i].getScholarship());
+        for (Student value : student) {
+            System.out.println("У " + value.firstName + "." + value.lastName +
+                    " средняя оценка " + value.averageMark +
+                    " стипендия " + value.getScholarship());
         }
 
     }

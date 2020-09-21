@@ -15,7 +15,7 @@ public class Student {
     }
 
     public double getScholarship() {
-  //      double shcolarship;
+
         if (averageMark == 5d) {
             shcolarship = 100d;
         } else {
