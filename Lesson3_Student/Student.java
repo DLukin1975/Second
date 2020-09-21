@@ -5,6 +5,7 @@ public class Student {
     public String firstName;
     public String lastName;
     public String group;
+    private double shcolarship;
 
     public Student(String firstName, String lastName, String group, double averageMark) {
         this.firstName = firstName;
@@ -14,7 +15,7 @@ public class Student {
     }
 
     public double getScholarship() {
-        double shcolarship;
+  //      double shcolarship;
         if (averageMark == 5d) {
             shcolarship = 100d;
         } else {
