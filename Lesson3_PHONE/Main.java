@@ -3,7 +3,7 @@ package Lesson3_PHONE;
 import java.util.Date;
 
 public class Main {
-    private static Phone[] phone;
+    private static Phone[] phone = new Phone[3];
     public static void main(String[] args) {
         phone[0] = new Phone("N234", "Nokia A310", 200);
         phone[1] = new Phone("N345", "Ericson XXL", 550);
