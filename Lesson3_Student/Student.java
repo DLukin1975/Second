@@ -1,10 +1,10 @@
 package Lesson3_Student;
 
 public class Student {
-    double averageMark;
-    String firstName;
-    String lastName;
-    String group;
+    public double averageMark;
+    public String firstName;
+    public String lastName;
+    public String group;
 
     public Student(String firstName, String lastName, String group, double averageMark) {
         this.firstName = firstName;
