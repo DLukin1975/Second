@@ -13,15 +13,18 @@ public class Main {
         for (Phone value : phone) {
             System.out.println(value.model + " " + value.number + " " + value.weght);
         }
-        System.out.println(phone[0].model + " " + phone[0].number + " " + phone[0].weght);
-        System.out.println(phone[1].model + " " + phone[1].number + " " + phone[1].weght);
-        System.out.println(phone[2].model + " " + phone[2].number + " " + phone[2].weght);
+ //       System.out.println(phone[0].model + " " + phone[0].number + " " + phone[0].weght);
+ //       System.out.println(phone[1].model + " " + phone[1].number + " " + phone[1].weght);
+  //      System.out.println(phone[2].model + " " + phone[2].number + " " + phone[2].weght);
 
         System.out.println();
         System.out.println("Вызов метода getNumber");
-        phone[0].getNumber();
-        phone[1].getNumber();
-        phone[2].getNumber();
+        for (Phone value : phone) {
+            value.getNumber();
+        }
+      //  phone[0].getNumber();
+     //   phone[1].getNumber();
+      //  phone[2].getNumber();
 
         System.out.println();
         System.out.println("Вызов перегруженного метода receiveCall");
