@@ -11,12 +11,14 @@ public class MyTableList<String> extends ArrayList<String> {
 
     @Override
     public int size() {
+
         return super.size();
     }
 
     //@Override
     public boolean add(String item) {
         myData.add(item);
+        size = size +1;
         return false;
     }
 
