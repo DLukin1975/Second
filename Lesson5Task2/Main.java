@@ -3,6 +3,7 @@ package Lesson5Task2;
 public class Main {
     public static void main(String[] args) {
         int i;
+
         CharactiristicCreate[] specification;
         SpecificationGenerator specificationGenerator = new SpecificationGenerator();
         specificationGenerator.setStrategyCreateSpecification(new TwoMonitorStrategy());
