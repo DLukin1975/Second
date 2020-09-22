@@ -4,11 +4,18 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class MyTableList<String> extends ArrayList<String> {
-    //   @Override
+
     private int size;
+    transient String[] elementData;
+
+    private ArrayList<String> myData = new ArrayList<>();
+
     @Override
     public int size() {
-        return size;
+        return super.size();
     }
+
+
+
 
 }
