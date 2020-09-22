@@ -1,6 +1,5 @@
 package Lesson6Task1;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class MyTableList<String> extends ArrayList<String> {
@@ -15,7 +14,11 @@ public class MyTableList<String> extends ArrayList<String> {
         return super.size();
     }
 
-
+    //@Override
+    public boolean add(String item) {
+        myData.add(item);
+        return false;
+    }
 
 
 }
