@@ -1,6 +1,6 @@
 package Lesson6Task1;
 
-import java.util.*;
+//import java.util.*;
 
 public class Main {
     public void main(String[] args) {
