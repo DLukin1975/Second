@@ -27,8 +27,9 @@ public class MyArrayList<E> implements MyList<E> {
             IntStream.range(0, size).forEach(i -> pocket[i] = list[i]);
             //     System.out.println("текущее " + pocket.length);
             pocket[pocket.length - 1] = item;
-            list = new Object[size];
             size = size + 1;
+            list = new Object[size];
+            System.out.println("текущее " + list.length);
             IntStream.range(0, size).forEach(i -> list[i] = pocket[i]);
         }
     }
