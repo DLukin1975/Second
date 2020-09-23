@@ -4,9 +4,6 @@ package Lesson6Task1;
 
 public class Main {
     public static void main(String[] args) {
-        MyTableList<String> list1 = new MyTableList<>();
-        list1.add("Элемент1");
-        System.out.println(list1.size());
-        System.out.print("Элемент1");
+
     }
 }
