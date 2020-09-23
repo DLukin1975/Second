@@ -1,18 +1,10 @@
 package Lesson6Task1;
 
-import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
-public class MyArrayList<E>  extends ArrayList<E> {
-private int size = 0;
+public class MyArrayList<E>  {
 
-
-    public int size() {
-        return size;
-    }
-
-    @Override
-    public boolean add(E item) {
-        size = size+1;
-        return false;
-    }
 }
