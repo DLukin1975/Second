@@ -76,4 +76,5 @@ public class MyArrayList<E> implements MyList<E> {
         list = (E[]) new Object[size];
         size = 0;
     }
+
 }
