@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-public class MyArrayList<E>  implements MyList<E> {
+public class MyArrayList<E> implements MyList<E> {
 
     int size = 0;
     Object[] list = new Object[0];
@@ -17,7 +17,7 @@ public class MyArrayList<E>  implements MyList<E> {
 
     @Override
     public void add(E item) {
-
+        Object[] pocket = new Object[size + 1];
     }
 
     @Override
