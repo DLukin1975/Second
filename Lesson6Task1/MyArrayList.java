@@ -59,7 +59,11 @@ public class MyArrayList<E> implements MyList<E> {
 
     @Override
     public void remove(E item) {
-
+        int i = 0;
+        while (item != list[i]) {
+            i++;
+        }
+        remove(i);
     }
 
     @Override
@@ -69,6 +73,7 @@ public class MyArrayList<E> implements MyList<E> {
 
     @Override
     public void clear() {
-
+        list = (E[]) new Object[size];
+        size = 0;
     }
 }

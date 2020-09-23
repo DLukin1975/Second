@@ -8,8 +8,9 @@ public class Main {
         listt.add("Птичка");
         listt.add("Воробушек");
         listt.add("Ворона");
+        listt.add("Крокодил");
         System.out.println(listt.size());
-        listt.remove(2);
+        listt.remove(1);
         System.out.println(listt.size());
         for (int i = 0; i < listt.size(); i++) {
             System.out.println(listt.get(i));
