@@ -8,5 +8,7 @@ public class Main {
         System.out.println(listt.size());
         listt.add("Птичка");
         System.out.println(listt.size());
+        listt.add("Воробушек");
+        System.out.println(listt.size());
     }
 }
