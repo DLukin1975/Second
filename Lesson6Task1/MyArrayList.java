@@ -18,15 +18,19 @@ public class MyArrayList<E> implements MyList<E> {
 
     @Override
     public void add(E item) {
-        Object[] pocket = new Object[size+1];
-     //   if (size >= 0) System.arraycopy(list, 0, pocket, 0, size);
-        IntStream.range(1, size).forEach(i -> pocket[i] = list[i]);
-        System.out.println("текущее " + pocket.length);
-        pocket[size] = item;
-        list = new Object[size+1];
-        size = size+1;
-        IntStream.range(1, size).forEach(i -> list[i] = pocket[i]);
-
+        Object[] pocket = new Object[size + 1];
+        if (size == 0) {
+            size = 1;
+            list = new Object[1];
+            list[0] = item;
+        } else {
+            IntStream.range(1, size).forEach(i -> pocket[i] = list[i]);
+            System.out.println("текущее " + pocket.length);
+            pocket[pocket.length-1] = item;
+            list = new Object[size];
+            size = size + 1;
+            IntStream.range(1, size).forEach(i -> list[i] = pocket[i]);
+        }
     }
 
     @Override
