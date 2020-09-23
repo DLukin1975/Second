@@ -21,8 +21,8 @@ public class MyArrayList<E> implements MyList<E> {
         Object[] pocket = new Object[size+1];
      //   if (size >= 0) System.arraycopy(list, 0, pocket, 0, size);
         IntStream.range(1, size).forEach(i -> pocket[i] = list[i]);
-        System.out.println("текущее " + size);
-        pocket[size+1] = item;
+        System.out.println("текущее " + pocket.length);
+        pocket[size] = item;
         list = new Object[size+1];
         size = size+1;
         IntStream.range(1, size).forEach(i -> list[i] = pocket[i]);
