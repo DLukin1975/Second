@@ -16,6 +16,7 @@ public class Box {
     }
 
     public double getWeight() {
+        weight = 0;
         for (Fruit fruit : content) {
             weight = weight + fruit.getWeightFruit();
         }
@@ -25,5 +26,11 @@ public class Box {
     public boolean Compare(Box box) {
         return this.getWeight() == box.getWeight();
     }
+
+    public void reload(Box box) {
+        this.content = new ArrayList<>();
+        this.content.addAll(box.content);
+    }
+
 
 }
