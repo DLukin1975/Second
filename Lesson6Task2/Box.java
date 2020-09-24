@@ -4,10 +4,9 @@ import java.util.ArrayList;
 
 public class Box {
     public ArrayList<Fruit> content = new ArrayList<>();
-    private double weight =0;
+    private double weight = 0;
 
-   public void addFruit (Fruit fruit) {
-       System.out.println(fruit.getWeightFruit());
+    public void addFruit(Fruit fruit) {
         content.add(fruit);
     }
 
