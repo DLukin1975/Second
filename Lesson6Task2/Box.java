@@ -13,7 +13,7 @@ public class Box {
     }
 
     public void addFruit (Fruit fruit) {
-        content.add(fruit);
+        this.content.add(fruit);
     }
 
     public double getWeight() {
