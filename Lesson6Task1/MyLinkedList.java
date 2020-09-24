@@ -6,6 +6,7 @@ public class MyLinkedList<E> implements MyList<E> {
 
     int size = 0;
     List <Pair<E>> listPair;
+    Pair<E> firstPair;
 
     @Override
     public int size() {
@@ -14,7 +15,7 @@ public class MyLinkedList<E> implements MyList<E> {
 
     @Override
     public void add(E item) {
-
+//if (size = )
     }
 
     @Override
