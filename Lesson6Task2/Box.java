@@ -7,8 +7,10 @@ public class Box {
     private double weight = 0;
 
     public boolean addFruit(Fruit fruit) {
-        content.add(fruit);
-        return true;
+        if (content.size() == 0) {
+            content.add(fruit);
+            return true;
+        } else {return false;}
     }
 
     public double getWeight() {
