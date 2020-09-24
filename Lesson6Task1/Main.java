@@ -16,6 +16,15 @@ public class Main {
         System.out.println(listt.size());
         for (int i = 0; i < listt.size(); i++) {
             System.out.println(listt.get(i));
+
+            System.out.println("Работа со списком на основе связанного списка");
+            MyList<String> listMyLinkedList = new MyLinkedList<>();
+            listMyLinkedList.add("Птичка");
+            listMyLinkedList.add("Воробушек");
+            listMyLinkedList.add("Ворона");
+            listMyLinkedList.add("Крокодил");
+            listMyLinkedList.add("Крокодил");
+            System.out.println(listMyLinkedList.size());
         }
     }
 }
