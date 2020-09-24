@@ -37,7 +37,8 @@ public class Main {
         listMyLinkedList.add("Ворона");
         listMyLinkedList.add("Крокодил");
         listMyLinkedList.add("Крокодил");
-        System.out.println(listMyLinkedList.size());
+        System.out.print(listMyLinkedList.get(1));
+        System.out.println("Итоговый список из " + listMyLinkedList.size() + " значений:");
         for (int i = 0; i < listMyLinkedList.size(); i++) {
             System.out.print(listMyLinkedList.get(i) + " ");
         }

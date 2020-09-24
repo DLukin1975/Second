@@ -16,7 +16,7 @@ public class MyLinkedList<E> implements MyList<E> {
     @Override
     public void add(E item) {
         myList.add(item);
-        size = size++;
+        size = size + 1;
     }
 
     @Override
