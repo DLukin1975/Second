@@ -18,17 +18,19 @@ public class MyLinkedList<E> implements MyList<E> {
     @Override
     public void add(E item) {
         myList.add(item);
-        size = size + 1;
+        size = size++;
     }
 
     @Override
     public void remove(int index) {
-
+        myList.remove(index);
+        size--;
     }
 
     @Override
     public void remove(E item) {
-
+        myList.remove(item);
+        size--;
     }
 
     @Override
@@ -38,7 +40,8 @@ public class MyLinkedList<E> implements MyList<E> {
 
     @Override
     public void clear() {
-
+        myList = (LinkedList<E>) new LinkedList<Object>();
+        size = 0;
     }
 }
 
