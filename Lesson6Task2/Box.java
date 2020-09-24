@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Box {
     public ArrayList<Fruit> content = new ArrayList<>();
-    private double weight = 0;
+    private double weight;
 
     public boolean addFruit(Fruit fruit) {
         if (content.size() == 0 || fruit.type.equals(content.get(0).type)) {

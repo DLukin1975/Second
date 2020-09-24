@@ -8,7 +8,6 @@ public class Main {
         Box box1 = new Box();
         Box box2 = new Box();
 
-        //System.out.println(apple.getWeightFruit());
         box1.addFruit(new Apple());
         box1.addFruit(new Apple());
         box1.addFruit(new Apple());
