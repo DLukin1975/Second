@@ -6,7 +6,7 @@ import java.util.List;
 public class MyLinkedList<E> implements MyList<E> {
 
     int size = 0;
-    LinkedList<E> myList;
+    LinkedList<E> myList = (LinkedList<E>) new LinkedList<Object>();
     //   Pair<E> firstPair;
     //   Pair<E> pocketPair;
 
