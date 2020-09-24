@@ -14,11 +14,11 @@ public class Main {
         box2.addFruit(new Orange());
         box2.addFruit(new Orange());
         box2.addFruit(new Orange());
-        System.out.println(box1.getWeight());
-        System.out.println(box2.getWeight());
-        System.out.println(box1.Compare(box2));
-
+        System.out.println("Вес первой коробки - " + box1.getWeight());
+        System.out.println("Вес второй коробки - " + box2.getWeight());
+        System.out.println("Вес коробок равен? " + box1.Compare(box2));
+        System.out.println("Пересыпаем первую коробку во вторую");
         box2.reload(box1);
-        System.out.println(box2.getWeight());
+        System.out.println("Вес второй коробки - " + box2.getWeight());
     }
 }
