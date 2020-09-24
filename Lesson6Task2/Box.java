@@ -6,14 +6,9 @@ public class Box {
     public List<Fruit> content;
     private double weight =0;
 
-    public Box(List<Fruit> content) {
-        this.content = content;
-    }
-    public Box() {
-    }
-
-    public void addFruit (Fruit fruit) {
-        this.content.add(fruit);
+   public void addFruit (Fruit fruit) {
+       System.out.println(fruit.getWeightFruit());
+        content.add(fruit);
     }
 
     public double getWeight() {
