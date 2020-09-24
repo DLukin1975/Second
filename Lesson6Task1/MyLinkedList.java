@@ -7,8 +7,6 @@ public class MyLinkedList<E> implements MyList<E> {
 
     int size = 0;
     LinkedList<E> myList = (LinkedList<E>) new LinkedList<Object>();
-    //   Pair<E> firstPair;
-    //   Pair<E> pocketPair;
 
     @Override
     public int size() {
@@ -35,7 +33,7 @@ public class MyLinkedList<E> implements MyList<E> {
 
     @Override
     public E get(int index) {
-        return null;
+        return myList.get(index);
     }
 
     @Override
@@ -45,8 +43,3 @@ public class MyLinkedList<E> implements MyList<E> {
     }
 }
 
-//class Pair<E> {
-//    E value;
-//   E nextvalue;
-//    //  public Pair getPair
-//}
