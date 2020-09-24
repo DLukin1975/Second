@@ -6,8 +6,9 @@ public class Box {
     public ArrayList<Fruit> content = new ArrayList<>();
     private double weight = 0;
 
-    public void addFruit(Fruit fruit) {
+    public boolean addFruit(Fruit fruit) {
         content.add(fruit);
+        return true;
     }
 
     public double getWeight() {
