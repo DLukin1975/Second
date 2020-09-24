@@ -7,10 +7,12 @@ public class Box {
     private double weight = 0;
 
     public boolean addFruit(Fruit fruit) {
-        if (content.size() == 0 || fruit.type.equals(content.get(0).type) ) {
+        if (content.size() == 0 || fruit.type.equals(content.get(0).type)) {
             content.add(fruit);
             return true;
-        } else {return false;}
+        } else {
+            return false;
+        }
     }
 
     public double getWeight() {
@@ -18,6 +20,10 @@ public class Box {
             weight = weight + fruit.getWeightFruit();
         }
         return weight;
+    }
+
+    public boolean Compare(Box box) {
+        return this.getWeight() == box.getWeight();
     }
 
 }

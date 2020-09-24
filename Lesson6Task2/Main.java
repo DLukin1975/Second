@@ -11,6 +11,11 @@ public class Main {
         //System.out.println(apple.getWeightFruit());
         box1.addFruit(new Apple());
         box1.addFruit(new Apple());
+        box1.addFruit(new Apple());
+        box2.addFruit(new Orange());
+        box2.addFruit(new Orange());
         System.out.println(box1.getWeight());
+        System.out.println(box2.getWeight());
+        System.out.println(box1.Compare(box2));
     }
 }
