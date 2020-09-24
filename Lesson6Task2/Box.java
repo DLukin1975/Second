@@ -1,9 +1,9 @@
 package Lesson6Task2;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class Box {
-    public List<Fruit> content;
+    public ArrayList<Fruit> content = new ArrayList<>();
     private double weight =0;
 
    public void addFruit (Fruit fruit) {
