@@ -1,13 +1,14 @@
 package Lesson6Task1;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class MyLinkedList<E> implements MyList<E> {
 
     int size = 0;
-    List<Pair<E>> listPair;
-    Pair<E> firstPair;
-    Pair<E> pocketPair;
+    LinkedList<E> myList;
+    //   Pair<E> firstPair;
+    //   Pair<E> pocketPair;
 
     @Override
     public int size() {
@@ -16,15 +17,9 @@ public class MyLinkedList<E> implements MyList<E> {
 
     @Override
     public void add(E item) {
+        myList.add(item);
 
-        if (firstPair.value == null) {
-            firstPair.value = item;
-            pocketPair.value = item;
-            listPair.add(pocketPair);
-        } else {
-            pocketPair.value = item;
-        }
-      size = size+1;
+        size = size + 1;
     }
 
     @Override
@@ -48,8 +43,8 @@ public class MyLinkedList<E> implements MyList<E> {
     }
 }
 
-class Pair<E> {
-    E value;
-    E nextvalue;
-    //  public Pair getPair
-}
+//class Pair<E> {
+//    E value;
+//   E nextvalue;
+//    //  public Pair getPair
+//}
