@@ -5,8 +5,9 @@ import java.util.List;
 public class MyLinkedList<E> implements MyList<E> {
 
     int size = 0;
-    List <Pair<E>> listPair;
+    List<Pair<E>> listPair;
     Pair<E> firstPair;
+    Pair<E> pocketPair;
 
     @Override
     public int size() {
@@ -15,7 +16,15 @@ public class MyLinkedList<E> implements MyList<E> {
 
     @Override
     public void add(E item) {
-//if (size = )
+
+        if (firstPair.value == null) {
+            firstPair.value = item;
+            pocketPair.value = item;
+            listPair.add(pocketPair);
+        } else {
+            pocketPair.value = item;
+        }
+      size = size+1;
     }
 
     @Override
@@ -40,7 +49,7 @@ public class MyLinkedList<E> implements MyList<E> {
 }
 
 class Pair<E> {
-    E pair1;
-    E pair2;
-  //  public Pair getPair
+    E value;
+    E nextvalue;
+    //  public Pair getPair
 }
