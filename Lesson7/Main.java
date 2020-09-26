@@ -8,9 +8,15 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        Path path = Path.of("readme.txt");
-        Files.createFile(path);
+        Path path = Path.of("AmountStorage.txt");
 
+        try {
+
+            Files.createFile(path);
+        } catch
+        (IOException e) {
+            e.printStackTrace();
+        }
         System.out.println(Files.isRegularFile(path));
         System.out.println("Готово");
         Files.delete(path);
