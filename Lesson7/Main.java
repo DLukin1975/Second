@@ -13,9 +13,7 @@ public class Main {
         try {
             Files.createFile(path);
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        } catch (IOException e)
         {
             System.out.println("Файл AmountStorage.txt уже существует");
         }
