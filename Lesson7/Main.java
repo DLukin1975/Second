@@ -6,9 +6,11 @@ import java.nio.file.Path;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
-        Path path = Path.of("c:\\123.txt");
-        Files.createFile(path);
+  //      Files.createFile(Path.of("c:\Q123.txt"));
+
+        System.out.println(Files.isRegularFile(Path.of("C:\\readme.txt")));
+        System.out.println("Готово");
     }
 }
