@@ -8,9 +8,12 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        Files.createFile(Path.of("readme.txt"));
+        Path path = Path.of("readme.txt");
+        Files.createFile(path);
 
-        System.out.println(Files.isRegularFile(Path.of("readme.txt")));
+        System.out.println(Files.isRegularFile(path));
         System.out.println("Готово");
+        Files.delete(path);
+        System.out.println(Files.isRegularFile(path));
     }
 }
