@@ -13,4 +13,14 @@ public class Account {
         this.holder = holder;
     }
 
+    public Account(Integer id, String holder, int amount) {
+        this.id = id;
+        this.holder = holder;
+        this.amount = amount;
+    }
+
+    public int getId () {
+        return id;
+    }
+
 }
