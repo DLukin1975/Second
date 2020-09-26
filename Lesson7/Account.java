@@ -19,8 +19,16 @@ public class Account {
         this.amount = amount;
     }
 
-    public int getId () {
+    public int getId() {
         return id;
+    }
+
+    public String getHolder() {
+        return holder;
+    }
+
+    public int getAmount() {
+        return amount;
     }
 
 }
