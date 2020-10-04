@@ -7,6 +7,8 @@ public class Account {
     private String holder;
     private int amount = 0;
 
+    public Account() {
+    }
 
     public Account(Integer id, String holder) {
         this.id = id;
@@ -31,4 +33,15 @@ public class Account {
         return amount;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setHolder(String holder) {
+        this.holder = holder;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
 }
