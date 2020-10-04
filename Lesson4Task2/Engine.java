@@ -1,8 +1,8 @@
 package Lesson4Task2;
 
 public class Engine {
-    public String produser;
-    public Integer power;
+    protected String produser;
+    protected Integer power;
 
     public Engine(String produser, Integer power) {
         this.produser = produser;

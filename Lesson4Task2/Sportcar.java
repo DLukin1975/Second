@@ -1,8 +1,13 @@
 package Lesson4Task2;
 
 public class Sportcar extends Car {
-    public Sportcar(String markAuto, String classAuto, Engine engine) {
+
+    final Integer maxSpeed;
+
+    public Sportcar(String markAuto, String classAuto, Engine engine, Integer maxSpeed) {
+
         super(markAuto, classAuto, engine);
+        this.maxSpeed = maxSpeed;
     }
 
     @Override
@@ -24,5 +29,6 @@ public class Sportcar extends Car {
         System.out.println("Класс " + classAuto);
         System.out.println("Производитель двигателя" + engine.produser);
         System.out.println("Мощность двигателя" + engine.power);
+        System.out.println("Максимальная скорость" + maxSpeed);
     }
 }

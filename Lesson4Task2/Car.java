@@ -1,9 +1,9 @@
 package Lesson4Task2;
 
 public abstract class Car {
-    public String markAuto;
-    public String classAuto;
-    public Engine engine;
+    protected String markAuto;
+    protected String classAuto;
+    protected Engine engine;
 
     public Car(String markAuto, String classAuto, Engine engine) {
         this.markAuto = markAuto;
@@ -11,11 +11,11 @@ public abstract class Car {
         this.engine = engine;
     }
 
-    abstract void start();
+    protected abstract void start();
 
-    abstract void stop();
+    protected abstract void stop();
 
-    abstract void printinfo();
+    protected abstract void printinfo();
 
     void turnleft() {
         System.out.println("Поворот налево");
