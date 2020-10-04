@@ -11,6 +11,6 @@ public class Triangle implements Shape {
 
     @Override
     public double square() {
-        return this.a * this.h / 2;
+        return a * h / 2;
     }
 }

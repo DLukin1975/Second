@@ -11,6 +11,6 @@ public class Rectangle implements Shape {
 
     @Override
     public double square() {
-        return this.x * this.y;
+        return x * y;
     }
 }

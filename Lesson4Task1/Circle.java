@@ -9,6 +9,6 @@ public class Circle implements Shape {
 
     @Override
     public double square() {
-        return this.r * PI / 2;
+        return r * Math.PI / 2;
     }
 }
