@@ -2,10 +2,10 @@ package Lesson3_Animal;
 
 public class Animal {
 
-    public String name;
-    public String food;
-    public String location;
-    private int Age;
+    protected String name;
+    protected String food;
+    protected String location;
+    protected int age;
 
     public Animal(String name, String food, String location) {
         this.name = name;
