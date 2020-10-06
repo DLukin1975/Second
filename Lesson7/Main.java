@@ -47,7 +47,7 @@ public class Main {
                 System.out.println("Введите номер счета и сумму");
                 accountFrom = scanner.nextInt();
                 amount = scanner.nextInt();
-                mas.withdraw(accountFrom,amount);
+                mas.withdraw(accountFrom, amount);
                 break;
             }
             case (2): {
@@ -62,7 +62,7 @@ public class Main {
                 System.out.println("Введите номер счета и сумму");
                 accountTo = scanner.nextInt();
                 amount = scanner.nextInt();
-                mas.withdraw(accountTo,amount);
+                mas.withdraw(accountTo, amount);
                 break;
             }
             case (4): {
@@ -71,7 +71,7 @@ public class Main {
                 accountFrom = scanner.nextInt();
                 accountTo = scanner.nextInt();
                 amount = scanner.nextInt();
-                mas.transfer(accountFrom,accountTo,amount);
+                mas.transfer(accountFrom, accountTo, amount);
                 break;
             }
             default: {
