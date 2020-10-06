@@ -2,9 +2,9 @@ package Lesson3_PHONE;
 
 public class Phone {
 
-    public String number;
-    public String model;
-    public int weght;
+    protected String number;
+    protected String model;
+    protected int weght;
 
     public Phone(String number, String model) {
         this.number = number;

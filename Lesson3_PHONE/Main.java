@@ -1,7 +1,5 @@
 package Lesson3_PHONE;
 
-import java.util.Date;
-
 public class Main {
     private static Phone[] phone = new Phone[3];
 
