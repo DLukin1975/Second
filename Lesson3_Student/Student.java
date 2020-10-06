@@ -1,11 +1,11 @@
 package Lesson3_Student;
 
 public class Student {
-    public double averageMark;
-    public String firstName;
-    public String lastName;
-    public String group;
-    private double shcolarship;
+    protected double averageMark;
+    protected String firstName;
+    protected String lastName;
+    protected String group;
+    protected double shcolarship;
 
     public Student(String firstName, String lastName, String group, double averageMark) {
         this.firstName = firstName;
